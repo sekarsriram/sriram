@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="[/b[L;D7XXytV8N[Af1C" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="d~CUzNwF)G/Lb/HtmLRm"><next><block type="playMelody" id="*ge9~p~#ZN{U.C!mu/ie"><value name="melody"><shadow type="melody_editor" id="EaQ0]jzdux[nMDK@{I7k"><field name="melody">"C5 C5 C5 C5 C5 A G E "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="6U3KN+wv`rj{ow8l_+^|"><mutation min="40" max="500" label="Number" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="?cu*v|e:/vHywUE}T8n%"><field name="LEDS">`
+        # # . . . 
+        . # . . # 
+        . # . . . 
+        . # # # # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="+9W/S524Oq5UxtC-OnLL"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id=",7e,l~s2wgnUM{iX4=*H"><field name="LEDS">`
+        # # . . . 
+        . # . . . 
+        . # . . . 
+        . # # # # 
+        . # . # .
+        `</field><next><block type="basic_show_icon" id="h};K!E)%8mwZCSgA0$/_"><field name="i">IconNames.Yes</field><next><block type="basic_show_icon" id="6T.$6IE=obSw+i!ds,1x"><field name="i">IconNames.No</field><next><block type="basic_show_icon" id="[(q!25V(b!t!GKt*wa]A"><field name="i">IconNames.Giraffe</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
